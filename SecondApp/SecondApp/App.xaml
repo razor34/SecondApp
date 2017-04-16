@@ -9,10 +9,10 @@
             <OnPlatform
                 x:Key="StringSmall"
                 x:TypeArguments="x:Double" 
-                Android="16.0"
+                Android="15.0"
                 iOS="14.0" />
             <Style x:Key="WarningButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="Blue" />
+                <Setter Property="BackgroundColor" Value="Red" />
             </Style>
         </ResourceDictionary>
 
