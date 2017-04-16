@@ -10,8 +10,8 @@
 
     <StackLayout VerticalOptions="Center">
 
-        <Label Text="{Binding TaskModel.Name}" />
-        <Label Text="{Binding TaskModel.Age}" />
+        <Label Text="{Binding PersonModel.Name}" />
+        <Label Text="{Binding PersonModel.Age}" />
 
         
 

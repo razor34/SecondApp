@@ -13,7 +13,8 @@
         <Entry Placeholder="Name" Text="{Binding PersonModel.Name, Mode=TwoWay}" />
         <Label Text="Your Age : " />
         <Entry Placeholder="Age" Text="{Binding PersonModel.Age, Mode=TwoWay}" />
-        <Label Text="{Binding PersonModel.Name}" />
+        <Button Text="Save Person" Command="{Binding SaveCommand}"></Button>
+        <Label Text="{Binding PersonInfo}"></Label>
     </StackLayout>
 
 </ContentPage>
