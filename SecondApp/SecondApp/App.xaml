@@ -12,7 +12,7 @@
                 Android="16.0"
                 iOS="14.0" />
             <Style x:Key="WarningButton" TargetType="Button">
-                <Setter Property="BackgroundColor" Value="Red" />
+                <Setter Property="BackgroundColor" Value="Blue" />
             </Style>
         </ResourceDictionary>
 
