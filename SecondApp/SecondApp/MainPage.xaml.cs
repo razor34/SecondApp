@@ -1,4 +1,6 @@
-﻿using SecondApp.ViewModels;
+﻿using System;
+using SecondApp.Models;
+using SecondApp.ViewModels;
 using Xamarin.Forms;
 
 namespace SecondApp

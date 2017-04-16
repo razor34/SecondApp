@@ -14,6 +14,8 @@
                         <StackLayout>
                             <Label Text="{Binding Name}" />
                             <Label Text="{Binding Number}" />
+                            <Button Clicked="Button_OnClicked"></Button>
+                            <Label x:Name="Name"></Label>
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

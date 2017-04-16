@@ -7,22 +7,22 @@ namespace SecondApp.ViewModels
 {
     class MainViewModel : INotifyPropertyChanged
     {
-        private TaskModel _taskModel;
+        private PersonModel _personModel;
 
 
-        public TaskModel TaskModel
+        public PersonModel PersonModel
         {
-            get { return _taskModel; }
+            get { return _personModel; }
             set
             {
-                _taskModel = value;
+                _personModel = value;
                 OnPropertyChanged();
             }
         }
 
         public MainViewModel()
         {
-            TaskModel = new TaskModel
+            PersonModel = new PersonModel
             {
                 Name = "Damian",
                 Age = 24

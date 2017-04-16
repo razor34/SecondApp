@@ -1,6 +1,6 @@
 ﻿namespace SecondApp.Models
 {
-    class TaskModel
+    class PersonModel   
     {
 
         public string Name { get; set; }

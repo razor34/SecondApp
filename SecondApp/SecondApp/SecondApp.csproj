@@ -48,7 +48,7 @@
     <Compile Include="MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Models\TaskModel.cs" />
+    <Compile Include="Models\PersonModel.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

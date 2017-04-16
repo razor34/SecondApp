@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -20,6 +21,11 @@ namespace SecondApp
 
             };
 
+        }
+
+        private void Button_OnClicked(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -10,10 +10,10 @@
 
         <Label Text="Welcome in the app!" />
         <Label Text="Your Name : " />
-        <Entry Placeholder="Name" Text="{Binding TaskModel.Name, Mode=TwoWay}" />
+        <Entry Placeholder="Name" Text="{Binding PersonModel.Name, Mode=TwoWay}" />
         <Label Text="Your Age : " />
-        <Entry Placeholder="Age" Text="{Binding TaskModel.Age, Mode=TwoWay}" />
-        <Label Text="{Binding TaskModel.Name}" />
+        <Entry Placeholder="Age" Text="{Binding PersonModel.Age, Mode=TwoWay}" />
+        <Label Text="{Binding PersonModel.Name}" />
     </StackLayout>
 
 </ContentPage>
