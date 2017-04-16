@@ -3,9 +3,17 @@
     x:Class="SecondApp.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    Title="MainPage">
+    Title="MainPage"
+    xmlns:converters="clr-namespace:SecondApp.Converters;assembly=SecondApp">
 
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:TextToColorConverter x:Key="TextToColorConverter"></converters:TextToColorConverter>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    
+    
     <StackLayout VerticalOptions="Center">
 
         <Label Text="Welcome in the app!" />
@@ -14,7 +22,8 @@
         <Label Text="Your Age : " />
         <Entry Placeholder="Age" Text="{Binding PersonModel.Age, Mode=TwoWay}" />
         <Button Text="Save Person" Command="{Binding SaveCommand}"></Button>
-        <Label Text="{Binding PersonInfo}"></Label>
+        <Label Text="{Binding PersonInfo}" 
+               TextColor="{Binding PersonInfo, Converter={StaticResource TextToColorConverter}}"></Label>
     </StackLayout>
 
 </ContentPage>

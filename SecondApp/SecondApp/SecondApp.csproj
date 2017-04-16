@@ -38,6 +38,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\TextToColorConverter.cs" />
     <Compile Include="Gym.cs" />
     <Compile Include="GymPage.xaml.cs">
       <DependentUpon>GymPage.xaml</DependentUpon>
