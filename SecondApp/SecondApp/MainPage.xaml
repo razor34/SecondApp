@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="SecondApp.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="MainPage">
+
+
+    <StackLayout VerticalOptions="Center">
+
+        <Label Text="Welcome in the app!" />
+        <Label Text="Your Name : " />
+        <Entry Placeholder="Name" Text="{Binding TaskModel.Name, Mode=TwoWay}" />
+        <Label Text="Your Age : " />
+        <Entry Placeholder="Age" Text="{Binding TaskModel.Age, Mode=TwoWay}" />
+        <Label Text="{Binding TaskModel.Name}" />
+    </StackLayout>
+
+</ContentPage>

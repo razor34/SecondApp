@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application
+    x:Class="SecondApp.App"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <OnPlatform
+                x:Key="StringSmall"
+                x:TypeArguments="x:Double" 
+                Android="16.0"
+                iOS="14.0" />
+            <Style x:Key="WarningButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red" />
+            </Style>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
